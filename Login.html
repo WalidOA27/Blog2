@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Login.css" />
+    <link rel="stylesheet" href="resets.css">
+    <title>Registro</title>
+  </head>
+  <body>
+    <header>
+        <div class="container">
+          <a href="Blog2.html" class="logo">
+            Titulo de la pagina
+        </a>
+            <nav>
+                <a href="">Primer link</a>
+                <a href="">Segundo link</a>
+                <a href="Login.html">Registrarse</a>
+            </nav>
+        </div>
+
+    </header>
+    
+    <div class="principal">
+    <form action="https://formsubmit.co/walid.ourfali@gmail.com" method="POST">
+      <h2>Contacto</h2>
+      <div class="general">
+        <label for="">Nombre</label>
+        <input type="text" name="name" id="name" placeholder="Nombre" />
+
+        <label for="phone">Teléfono</label>
+        <input type="tel" name="  " id="phone" placeholder="Teléfono" />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email" />
+
+        <label for="mesage">Mensaje</label>
+        <textarea
+          name="mesage"
+          id="mesage"
+          cols="30"
+          rows="5"
+          placeholder="Mensaje"
+        ></textarea>
+
+        <div class="link-politicas">
+            <div>
+              <a href="#">Política de privacidad</a>
+            </div>
+            <div>
+              <a href="#">Términos y condiciones</a>
+          </div>
+        </div>
+
+        <div class="privacidad">
+          <input type="checkbox"required>
+          <label>He leido y acepto la politica de privacidad</label>
+        </div>
+        
+        <input class="btn" type="submit" value="Enviar" />
+      </div>
+    </div>
+    </form>
+  </body>
+</html>
